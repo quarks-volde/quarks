@@ -20,5 +20,5 @@ Additionally, KNN algorithms are applied for clustering oceanographic and atmosp
 
 The outcomes of this research aim to enhance our understanding of climate processes, improve climate models' predictive accuracy, and inform strategies for mitigating the impacts of climate change on oceanic and atmospheric systems. This interdisciplinary approach bridges oceanography, atmospheric science, and machine learning, contributing valuable insights to both scientific research and environmental policy-making.
 
-![Project Image](/quarks/project.png)
+![Project Image](/quarks/project.jpg)
 
