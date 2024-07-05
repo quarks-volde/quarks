@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Projects"
-permalink: /quarks/projects/
+permalink: /projects/
 ---
 
 # Projects
