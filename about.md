@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-permalink: /quarks/about/
+permalink: /about/
 ---
 
 # About Me
