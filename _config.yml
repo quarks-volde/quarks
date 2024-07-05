@@ -1,7 +1,7 @@
 title: "Quarks Volde - Ocean Atmospheric Researcher"
 email: workofmine.rahul@gamil.com
 description: "Research in ocean-atmospheric climate change and variability"
-baseurl: "/quarks" # Set this to the subpath of your site
+baseurl: "" # Set this to the subpath of your site
 url: "https://quarks-volde.github.io" # The base hostname & protocol for your site
 theme: minima
 github_username: quarks-volde
