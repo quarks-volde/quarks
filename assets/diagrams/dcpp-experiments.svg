@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">CMIP7 DCPP-C experiment design</title>
+<desc id="desc">North Pacific and Southern Ocean surface-forcing experiments with IITM-DCPS. Positive and negative perturbations are applied for ten years, followed by ten years of free evolution. The North Pacific ensemble has twenty members; the Southern Ocean freshwater ensemble has ten.</desc>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#143446}.title{font-size:33px;font-weight:600}.label{font-size:28px;font-weight:600}.small{font-size:22px;fill:#506c77}.note{font-size:20px;fill:#506c77}.light{fill:#e8f5f5}</style>
+<rect width="900" height="600" rx="24" fill="#edf5f7"/>
+<text class="title" x="40" y="56">CMIP7 DCPP-C experiments</text>
+<text class="small" x="40" y="93">IITM Decadal Climate Prediction System</text>
+<rect x="40" y="125" width="395" height="198" rx="16" fill="#fff" stroke="#c6dde3" stroke-width="2"/>
+<text class="label" x="65" y="168">North Pacific</text>
+<text class="small" x="65" y="208">Aleutian Low forcing</text>
+<text class="small" x="65" y="246">Momentum + buoyancy fluxes</text>
+<text class="note" x="65" y="291">20-member ensemble</text>
+<rect x="465" y="125" width="395" height="198" rx="16" fill="#fff" stroke="#c6dde3" stroke-width="2"/>
+<text class="label" x="490" y="168">Southern Ocean</text>
+<text class="small" x="490" y="208">Momentum + buoyancy fluxes</text>
+<text class="small" x="490" y="246">Zonal wind stress only</text>
+<text class="note" x="490" y="291">Freshwater (P–E): 10 members</text>
+<text class="small" x="40" y="371">20-year integrations</text>
+<rect x="40" y="393" width="400" height="114" rx="15" fill="#0c5766"/>
+<text class="label light" x="65" y="437">Years 1–10</text>
+<text class="small light" x="65" y="477">Surface forcing applied</text>
+<rect x="460" y="393" width="400" height="114" rx="15" fill="#d8ede7"/>
+<text class="label" x="485" y="437">Years 11–20</text>
+<text class="small" x="485" y="477">Free evolution</text>
+<path d="M440 450h20" stroke="#168c95" stroke-width="3"/>
+<path d="m452 444 8 6-8 6" fill="none" stroke="#168c95" stroke-width="3"/>
+<text class="small" x="450" y="561" text-anchor="middle">Positive and negative forcing experiments</text>
+</svg>
