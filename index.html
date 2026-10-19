@@ -1,34 +1,30 @@
----
-layout: home
-title: "Home"
----
-
-<div class="home">
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
-  
-  <!-- Navigation Links -->
-  <nav>
-    <ul>
-      <li><a href="{{ site.baseurl }}/about/">About</a></li>
-      <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
-      <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Blog Posts -->
-  <h2>Blog Posts</h2>
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <p>{{ post.excerpt }}</p>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-  <!-- Image -->
-  <div>
-    <img src="{{ site.baseurl }}/precipitation_1950_2021.png" alt="Precipitation 1950-2021">
-  </div>
-</div>
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Climate scientist Rahul Raghudhas: Earth-system models, tropical climate dynamics, monsoon research and climate AI."><meta name="author" content="Rahul Raghudhas">
+<meta name="robots" content="noindex, nofollow"><meta name="referrer" content="no-referrer"><meta name="theme-color" content="#10384a">
+<title>Climate Scientist &amp; Earth-System Modelling | Rahul Raghudhas</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="assets/style.css">
+</head><body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header wrap"><a class="brand" href="index.html" aria-label="Rahul Raghudhas home"><span class="brand-monogram" aria-hidden="true">RR</span><span>Rahul Raghudhas<span class="brand-subtitle">CLIMATE SCIENTIST</span></span></a><nav aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a href="about/index.html">Profile</a><a href="research/index.html">Research</a><a href="publications/index.html">Publications</a><a href="contact/index.html">Contact</a></nav></header>
+<main id="main" tabindex="-1"><section class="hero wrap" aria-labelledby="hero-title">
+ <div class="hero-copy"><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Rahul Raghudhas · Climate Scientist</p><h1 id="hero-title">Exploring the<br> <em>connected climate.</em></h1><p class="hero-description">I develop and work with climate models to understand how the ocean, atmosphere, and sea ice interact—and what those connections mean for monsoons, tropical cyclones, and predictability.</p><p class="role-line">Project Scientist-I <span aria-hidden="true">/</span> IITM, Pune, India</p><div class="actions"><a class="button button-dark" href="research/index.html">Explore my research <span aria-hidden="true">↗</span></a><a class="button button-outline" href="assets/Rahul_Raghudhas_CV_Aug_2026.pdf" download>Download CV <span aria-hidden="true">↓</span></a></div></div>
+ <figure class="hero-art"><img src="assets/diagrams/earth-system.svg" width="900" height="730" alt="Conceptual illustration of ocean, atmosphere and sea ice as connected components of the climate system." fetchpriority="high"><figcaption>Understanding climate through connected physical systems.</figcaption></figure>
+</section>
+<div class="experience-band"><div class="wrap experience-inner"><span class="small-label">RESEARCH EXPERIENCE</span><span>IITM <small>Pune</small></span><span>NCMRWF <small>Noida</small></span><span>IIT Kharagpur <small>CORAL</small></span><a href="about/index.html">View profile <span aria-hidden="true">↗</span></a></div></div>
+<section class="wrap research-section" aria-labelledby="research-title"><div class="section-heading"><div><p class="eyebrow">What I work on</p><h2 id="research-title">Physical processes.<br> <em>Connected questions.</em></h2></div><p class="section-description">From the development of climate-model components to the remote links shaping regional weather and rainfall.</p></div>
+<div class="visual-cards">
+ <article class="visual-card"><a href="research/index.html#ufs" class="card-image" tabindex="-1" aria-hidden="true"><img src="assets/diagrams/coupled-models.svg" width="900" height="600" alt="" loading="lazy"></a><div class="card-body"><p class="eyebrow">01 / Earth-system modelling</p><h3>Building the models<br> that connect the system.</h3><p>UFS and FV3/GFS v16 integration planning, CICE6 development, and coupled-model preparation on IITM HPC.</p><a class="text-link" href="research/index.html#ufs">Models &amp; development <span aria-hidden="true">↗</span></a></div></article>
+ <article class="visual-card"><a href="research/index.html#dcpp" class="card-image" tabindex="-1" aria-hidden="true"><img src="assets/diagrams/pacific-monsoon.svg" width="900" height="600" alt="" loading="lazy"></a><div class="card-body"><p class="eyebrow">02 / Pacific–monsoon links</p><h3>Tracing connections<br> across ocean basins.</h3><p>North Pacific forcing, PDO-like variability, and the pathways that connect Pacific conditions with the Indian monsoon.</p><a class="text-link" href="research/index.html#dcpp">Climate teleconnections <span aria-hidden="true">↗</span></a></div></article>
+ <article class="visual-card"><a href="research/index.html#regional-coupling" class="card-image" tabindex="-1" aria-hidden="true"><img src="assets/diagrams/mjo-cyclones.svg" width="900" height="600" alt="" loading="lazy"></a><div class="card-body"><p class="eyebrow">03 / Tropical climate</p><h3>Understanding variability<br> and cyclone activity.</h3><p>MJO, the Indo-Pacific warm pool, monsoon–cyclogenesis links, and machine learning for climate predictability.</p><a class="text-link" href="research/index.html#regional-coupling">Dynamics &amp; climate AI <span aria-hidden="true">↗</span></a></div></article>
+</div></section>
+<section class="model-band" aria-labelledby="model-title"><div class="wrap model-feature"><div><p class="eyebrow">Model development in practice</p><h2 id="model-title">A model is only useful<br> when you can <em>trust the run.</em></h2><p>My development work combines compilation and configuration with restart, reproducibility, and diagnostic checks.</p><dl class="model-facts"><div><dt>100 km &amp; 25 km</dt><dd>Completed CICE6 climatological integrations on IITM HPC.</dd></div><div><dt>UFS on ARKA</dt><dd>Compiled the coupled framework and established its software and dependency environment.</dd></div></dl><a class="text-link light-link" href="research/index.html#cice6">Explore sea-ice model development <span aria-hidden="true">↗</span></a></div><figure><a href="assets/diagrams/sea-ice.svg"><img src="assets/diagrams/sea-ice.svg" width="900" height="600" alt="CICE6 conceptual overview showing sea ice, the 100 km and 25 km integration resolutions, and restart, reproducibility and diagnostic checks." loading="lazy"></a><figcaption>Conceptual overview of CICE6 integrations and validation.</figcaption></figure></div></section>
+<section class="wrap publications-section" aria-labelledby="publications-title"><div class="section-heading"><div><p class="eyebrow">Selected publications</p><h2 id="publications-title">Research in print.</h2></div><a class="text-link" href="publications/index.html">All publications <span aria-hidden="true">↗</span></a></div>
+<article class="publication-row"><span class="publication-year">2026</span><div><p class="publication-topic">DEEP LEARNING · MONSOON · CYCLOGENESIS</p><h3><a href="https://doi.org/10.1007/s41748-026-01196-2" rel="noreferrer">Decoding the Non-linear Impact of Monsoon on Cyclogenesis in the Bay of Bengal by Applying Deep Learning</a></h3><p>Earth Systems and Environment</p></div><span aria-hidden="true">↗</span></article>
+<article class="publication-row"><span class="publication-year">2022</span><div><p class="publication-topic">MJO · TROPICAL CYCLONES · NORTH INDIAN OCEAN</p><h3><a href="https://doi.org/10.1016/j.atmosres.2021.105880" rel="noreferrer">The inverse influence of MJO on the cyclogenesis in the north Indian Ocean</a></h3><p>Atmospheric Research · 265, 105880</p></div><span aria-hidden="true">↗</span></article>
+</section>
+<section class="wrap contact-strip" aria-labelledby="contact-title"><div><p class="eyebrow">Research &amp; collaboration</p><h2 id="contact-title">Let’s connect.</h2><p>Earth-system modelling, tropical climate, and data-driven predictability.</p></div><a class="button button-dark" href="contact/index.html">Get in touch <span aria-hidden="true">↗</span></a></section>
+</main>
+<footer class="site-footer"><div class="wrap footer-top"><div><a class="footer-brand" href="index.html">Rahul Raghudhas</a><p>Climate scientist · Earth-system &amp; ocean–atmosphere modelling</p></div><div class="footer-links"><a href="research/index.html">Research</a><a href="publications/index.html">Publications</a><a href="mailto:rahulraghudhas@gmail.com">Email ↗</a></div></div><div class="wrap footer-bottom"><span>IITM, Pune, India</span><a href="assets/Rahul_Raghudhas_CV_Aug_2026.pdf">Curriculum vitae · August 2026 ↗</a></div></footer>
+</body></html>

@@ -1,0 +1,7 @@
+*.zip
+__pycache__/
+.DS_Store
+REVIEW.md
+archive-before-cv-update/
+browser-check-results.json
+*-preview.png
