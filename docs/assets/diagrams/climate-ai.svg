@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">Machine learning approaches to climate research</title><desc id="desc">Two research approaches: explainable LSTM for monsoon and cyclogenesis, and Bayesian CNN for probabilistic ENSO prediction. SHAP, ensembles and diagnostics support the analysis.</desc>
+<defs>
+ <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#147e95"/><stop offset="1" stop-color="#063950"/></linearGradient>
+ <linearGradient id="ice" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#a9dce9"/></linearGradient>
+ <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#168c95"/></marker>
+ <marker id="gold-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#efba65"/></marker>
+ <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" fill="none" stroke="#a4cfda" stroke-opacity=".11"/></pattern>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#143446}.title{font-size:33px;font-weight:600}.label{font-size:29px;font-weight:600}.small{font-size:22px;fill:#506c77}.micro{font-size:18px;letter-spacing:2px;fill:#506c77}.line{fill:none;stroke:#168c95;stroke-width:4;marker-end:url(#arrow)}.node{fill:#fff;stroke:#c6dde3;stroke-width:2}</style>
+<rect width="900" height="600" rx="24" fill="#edf5f7"/>
+<text class="title" x="40" y="56">Learning from climate data</text>
+<rect class="node" x="40" y="239" width="193" height="120" rx="18"/><text class="label" text-anchor="middle" x="136" y="291">Climate</text><text class="label" text-anchor="middle" x="136" y="329">data</text>
+<rect x="315" y="125" width="220" height="115" rx="16" fill="#d6ebe8"/><text class="label" text-anchor="middle" x="425" y="176">LSTM</text><text class="small" text-anchor="middle" x="425" y="211">Temporal patterns</text>
+<rect x="315" y="358" width="220" height="115" rx="16" fill="#d6e7f0"/><text class="label" text-anchor="middle" x="425" y="409">Bayesian CNN</text><text class="small" text-anchor="middle" x="425" y="444">Probabilistic methods</text>
+<rect class="node" x="605" y="125" width="255" height="115" rx="16"/><text class="label" text-anchor="middle" x="732" y="175">Monsoon &amp;</text><text class="label" text-anchor="middle" x="732" y="213">cyclogenesis</text>
+<rect class="node" x="605" y="358" width="255" height="115" rx="16"/><text class="label" text-anchor="middle" x="732" y="408">ENSO</text><text class="label" text-anchor="middle" x="732" y="446">prediction</text>
+<path class="line" d="M245 300H270V183H302"/><path class="line" d="M270 300V416H302"/><path class="line" d="M546 183H592"/><path class="line" d="M546 416H592"/>
+<text class="small" text-anchor="middle" x="450" y="553">SHAP · Ensemble analysis · Climate diagnostics</text>
+</svg>

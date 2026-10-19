@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">Indo-Pacific warm pool research</title><desc id="desc">A conceptual research schematic linking changes in the Indo-Pacific warm pool with MJO variability and tropical cyclone response. It does not depict measured or simulated sea-surface temperatures.</desc>
+<defs>
+ <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#147e95"/><stop offset="1" stop-color="#063950"/></linearGradient>
+ <linearGradient id="ice" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#a9dce9"/></linearGradient>
+ <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#168c95"/></marker>
+ <marker id="gold-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#efba65"/></marker>
+ <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" fill="none" stroke="#a4cfda" stroke-opacity=".11"/></pattern>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#143446}.title{font-size:33px;font-weight:600}.label{font-size:29px;font-weight:600}.small{font-size:22px;fill:#506c77}.micro{font-size:18px;letter-spacing:2px;fill:#506c77}.line{fill:none;stroke:#168c95;stroke-width:4;marker-end:url(#arrow)}.node{fill:#fff;stroke:#c6dde3;stroke-width:2}</style>
+<rect width="900" height="600" rx="24" fill="#edf5f7"/>
+<text class="title" x="40" y="56">A changing tropical background</text>
+<rect x="40" y="106" width="820" height="242" rx="18" fill="#d8eaf0"/>
+<ellipse cx="450" cy="227" rx="291" ry="78" fill="#f1cc90" opacity=".55"/>
+<ellipse cx="450" cy="227" rx="222" ry="58" fill="#eab677" opacity=".6"/>
+<ellipse cx="450" cy="227" rx="147" ry="39" fill="#dc9662" opacity=".6"/>
+<ellipse cx="450" cy="227" rx="333" ry="97" fill="none" stroke="#bb824a" stroke-width="3" stroke-dasharray="8 8"/>
+<text class="label" text-anchor="middle" x="450" y="237">Indo-Pacific warm pool</text>
+<path class="line" d="M335 362V411H250V442"/><path class="line" d="M565 362V411H650V442"/>
+<rect class="node" x="60" y="453" width="375" height="90" rx="16"/><text class="label" text-anchor="middle" x="247" y="508">MJO variability</text>
+<rect class="node" x="465" y="453" width="375" height="90" rx="16"/><text class="label" text-anchor="middle" x="652" y="508">Cyclone response</text>
+<text class="micro" text-anchor="middle" x="450" y="580">CONCEPTUAL SCHEMATIC · NOT A DATA MAP</text>
+</svg>

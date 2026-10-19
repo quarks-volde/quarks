@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="730" viewBox="0 0 900 730" role="img" aria-labelledby="title desc">
+<title id="title">Ocean, atmosphere and sea ice</title><desc id="desc">Conceptual illustration of the atmosphere, ocean and polar sea ice as interacting parts of the climate system.</desc>
+<defs>
+ <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#147e95"/><stop offset="1" stop-color="#063950"/></linearGradient>
+ <linearGradient id="ice" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#a9dce9"/></linearGradient>
+ <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#168c95"/></marker>
+ <marker id="gold-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#efba65"/></marker>
+ <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" fill="none" stroke="#a4cfda" stroke-opacity=".11"/></pattern>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#e9f5f6}.title{font-size:33px;font-weight:600}.label{font-size:29px;font-weight:600}.small{font-size:22px;fill:#abcbd4}.micro{font-size:18px;letter-spacing:2px;fill:#abcbd4}.line{fill:none;stroke:#168c95;stroke-width:4;marker-end:url(#arrow)}.node{fill:#fff;stroke:#c6dde3;stroke-width:2}</style>
+<rect width="900" height="730" rx="24" fill="#0c2f43"/>
+<rect width="900" height="730" fill="url(#grid)" rx="24"/>
+<text class="micro" x="42" y="48">EXPLORING A CONNECTED PLANET</text>
+<defs><clipPath id="sphere"><circle cx="450" cy="345" r="228"/></clipPath></defs>
+<circle cx="450" cy="345" r="267" fill="none" stroke="#77b8c7" stroke-opacity=".2"/>
+<circle cx="450" cy="345" r="247" fill="none" stroke="#63b8c8" stroke-opacity=".4" stroke-dasharray="5 10"/>
+<circle cx="450" cy="345" r="228" fill="url(#ocean)"/>
+<g clip-path="url(#sphere)">
+ <ellipse cx="450" cy="345" rx="112" ry="228" fill="none" stroke="#9ddce4" stroke-opacity=".25"/>
+ <ellipse cx="450" cy="345" rx="183" ry="228" fill="none" stroke="#9ddce4" stroke-opacity=".2"/>
+ <ellipse cx="450" cy="345" rx="228" ry="72" fill="none" stroke="#9ddce4" stroke-opacity=".3"/>
+ <ellipse cx="450" cy="345" rx="228" ry="153" fill="none" stroke="#9ddce4" stroke-opacity=".2"/>
+ <path d="M220 165Q350 205 450 174T680 170L660 90H240Z" fill="url(#ice)"/>
+ <path d="M190 372Q290 317 402 372T635 372T770 372M190 413Q290 358 402 413T635 413T770 413M190 454Q290 399 402 454T635 454T770 454" fill="none" stroke="#68c7cf" stroke-width="3" opacity=".8"/>
+ <path d="M290 550Q450 505 610 550L600 620H300Z" fill="#b6dfe6" opacity=".7"/>
+</g>
+<path d="M230 255A252 252 0 0 1 670 235" stroke="#efba65" stroke-width="4" fill="none" marker-end="url(#gold-arrow)"/>
+<circle cx="690" cy="290" r="5" fill="#efba65"/><path d="M690 290H762V200" stroke="#c5dce2" stroke-width="2" fill="none"/>
+<text class="label" x="655" y="148">Atmosphere</text><text class="small" x="655" y="181">Circulation &amp; weather</text>
+<circle cx="285" cy="424" r="5" fill="#76d1db"/><path d="M285 424H130V486" stroke="#c5dce2" stroke-width="2" fill="none"/>
+<text class="label" x="52" y="530">Ocean</text><text class="small" x="52" y="563">Heat &amp; currents</text>
+<circle cx="420" cy="160" r="5" fill="#fff"/><path d="M420 160L320 98H185" stroke="#c5dce2" stroke-width="2" fill="none"/>
+<text class="label" x="52" y="96">Sea ice</text><text class="small" x="52" y="129">Polar processes</text>
+<text class="small" text-anchor="middle" x="450" y="655">Component development · Coupling · Validation</text>
+<text class="micro" text-anchor="middle" x="450" y="694">CONCEPTUAL ILLUSTRATION</text>
+</svg>

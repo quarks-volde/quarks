@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">CICE6 integrations and validation</title><desc id="desc">Conceptual sea-ice cross section above two integration resolutions, 100 km and 25 km, followed by restart, reproducibility and diagnostic checks.</desc>
+<defs>
+ <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#147e95"/><stop offset="1" stop-color="#063950"/></linearGradient>
+ <linearGradient id="ice" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#a9dce9"/></linearGradient>
+ <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#168c95"/></marker>
+ <marker id="gold-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#efba65"/></marker>
+ <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" fill="none" stroke="#a4cfda" stroke-opacity=".11"/></pattern>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#143446}.title{font-size:33px;font-weight:600}.label{font-size:29px;font-weight:600}.small{font-size:22px;fill:#506c77}.micro{font-size:18px;letter-spacing:2px;fill:#506c77}.line{fill:none;stroke:#168c95;stroke-width:4;marker-end:url(#arrow)}.node{fill:#fff;stroke:#c6dde3;stroke-width:2}</style>
+<rect width="900" height="600" rx="24" fill="#edf5f7"/>
+<text class="title" x="40" y="56">Sea-ice development &amp; validation</text>
+<rect x="40" y="94" width="820" height="200" rx="18" fill="#dceef3"/>
+<path d="M40 210Q220 190 420 214T860 210V275Q860 294 841 294H59Q40 294 40 275Z" fill="#258797"/>
+<path d="M160 172L223 154L270 172L337 165L385 185L480 173L525 195L601 178L656 191L736 178L736 216L680 241L601 226L522 249L434 231L356 243L278 224L211 238L160 218Z" fill="url(#ice)" stroke="#88c0cf" stroke-width="2"/>
+<text class="small" x="73" y="130">Atmospheric forcing</text><text class="small" x="560" y="268" style="fill:#fff">Ocean boundary</text>
+<rect class="node" x="40" y="330" width="395" height="108" rx="15"/><text x="78" y="381" style="font-size:38px;font-weight:600">100 km</text><text class="small" x="78" y="413">Climatological integrations</text>
+<rect class="node" x="465" y="330" width="395" height="108" rx="15"/><text x="503" y="381" style="font-size:38px;font-weight:600">25 km</text><text class="small" x="503" y="413">Climatological integrations</text>
+<path d="M60 500H840" stroke="#a1c5cf" stroke-width="3"/>
+<g fill="#147d89"><circle cx="150" cy="500" r="8"/><circle cx="450" cy="500" r="8"/><circle cx="750" cy="500" r="8"/></g>
+<text class="small" text-anchor="middle" x="150" y="548">Restart checks</text><text class="small" text-anchor="middle" x="450" y="548">Reproducibility</text><text class="small" text-anchor="middle" x="750" y="548">Diagnostics</text>
+</svg>

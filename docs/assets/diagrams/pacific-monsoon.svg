@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">Pacific forcing and Indian monsoon research</title><desc id="desc">A conceptual research pathway under investigation, from Aleutian Low-related forcing and North Pacific variability to atmospheric teleconnections and Indian summer monsoon rainfall.</desc>
+<defs>
+ <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#147e95"/><stop offset="1" stop-color="#063950"/></linearGradient>
+ <linearGradient id="ice" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#a9dce9"/></linearGradient>
+ <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#168c95"/></marker>
+ <marker id="gold-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#efba65"/></marker>
+ <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" fill="none" stroke="#a4cfda" stroke-opacity=".11"/></pattern>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#143446}.title{font-size:33px;font-weight:600}.label{font-size:29px;font-weight:600}.small{font-size:22px;fill:#506c77}.micro{font-size:18px;letter-spacing:2px;fill:#506c77}.line{fill:none;stroke:#168c95;stroke-width:4;marker-end:url(#arrow)}.node{fill:#fff;stroke:#c6dde3;stroke-width:2}</style>
+<rect width="900" height="600" rx="24" fill="#edf5f7"/>
+<text class="title" x="40" y="56">From the Pacific to the monsoon</text>
+<text class="small" x="40" y="91">DCPP-C · PDO-like variability · Teleconnections</text>
+<rect class="node" x="40" y="140" width="365" height="146" rx="18"/><text class="micro" x="65" y="175">01 / FORCING</text><text class="label" x="65" y="217">Aleutian Low</text><text class="small" x="65" y="255">Momentum &amp; buoyancy</text>
+<rect class="node" x="495" y="140" width="365" height="146" rx="18"/><text class="micro" x="520" y="175">02 / OCEAN VARIABILITY</text><text class="label" x="520" y="217">North Pacific</text><text class="small" x="520" y="255">PDO-like patterns</text>
+<rect class="node" x="495" y="371" width="365" height="146" rx="18"/><text class="micro" x="520" y="406">03 / CONNECTIONS</text><text class="label" x="520" y="448">Atmospheric pathways</text><text class="small" x="520" y="486">Remote climate links</text>
+<rect x="40" y="371" width="365" height="146" rx="18" fill="#d8ede7"/><text class="micro" x="65" y="406">04 / REGIONAL RESPONSE</text><text class="label" x="65" y="448">Indian monsoon</text><text class="small" x="65" y="486">Summer rainfall variability</text>
+<path class="line" d="M416 215H483" stroke-dasharray="7 6"/><path class="line" d="M675 300V358" stroke-dasharray="7 6"/><path class="line" d="M483 444H417" stroke-dasharray="7 6"/>
+<text class="small" text-anchor="middle" x="450" y="566">Conceptual pathway under investigation</text>
+</svg>

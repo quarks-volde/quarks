@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
+<title id="title">MJO and tropical cyclone research</title><desc id="desc">An eastward-propagating tropical disturbance illustrated over Indian Ocean, Maritime Continent and western Pacific sectors, with basin-dependent tropical-cyclone response as the research question.</desc>
+<defs>
+ <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#147e95"/><stop offset="1" stop-color="#063950"/></linearGradient>
+ <linearGradient id="ice" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#a9dce9"/></linearGradient>
+ <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#168c95"/></marker>
+ <marker id="gold-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#efba65"/></marker>
+ <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" fill="none" stroke="#a4cfda" stroke-opacity=".11"/></pattern>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#143446}.title{font-size:33px;font-weight:600}.label{font-size:29px;font-weight:600}.small{font-size:22px;fill:#506c77}.micro{font-size:18px;letter-spacing:2px;fill:#506c77}.line{fill:none;stroke:#168c95;stroke-width:4;marker-end:url(#arrow)}.node{fill:#fff;stroke:#c6dde3;stroke-width:2}</style>
+<rect width="900" height="600" rx="24" fill="#edf5f7"/>
+<text class="title" x="40" y="56">MJO &amp; tropical cyclone activity</text>
+<path d="M100 119H799" class="line"/><text class="small" text-anchor="middle" x="450" y="157">Eastward propagation</text>
+<rect x="40" y="196" width="820" height="167" rx="18" fill="#d5eaf0"/>
+<path d="M40 307Q142 280 245 307T450 307T655 307T860 307V345Q860 363 840 363H60Q40 363 40 343Z" fill="#78bdca"/>
+<g fill="#fff" stroke="#b5d1db" stroke-width="2"><path d="M100 274Q77 251 103 239Q99 212 128 213Q146 194 165 215Q194 208 200 235Q227 243 208 274Z"/><path d="M369 274Q346 251 372 239Q368 212 397 213Q415 194 434 215Q463 208 469 235Q496 243 477 274Z"/><path d="M639 274Q616 251 642 239Q638 212 667 213Q685 194 704 215Q733 208 739 235Q766 243 747 274Z"/></g>
+<text class="small" text-anchor="middle" x="173" y="404">Indian Ocean</text><text class="small" text-anchor="middle" x="450" y="404">Maritime Continent</text><text class="small" text-anchor="middle" x="727" y="404">Western Pacific</text>
+<path d="M173 424V453H727V424M450 453V481" fill="none" stroke="#168c95" stroke-width="3"/>
+<rect x="115" y="488" width="670" height="72" rx="36" fill="#0c5766"/><text text-anchor="middle" x="450" y="533" style="font-size:28px;fill:#fff">How does cyclone activity respond by basin?</text>
+</svg>
