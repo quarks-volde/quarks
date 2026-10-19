@@ -1,0 +1,34 @@
+---
+layout: home
+title: "Home"
+---
+
+<div class="home">
+  <h1>{{ site.title }}</h1>
+  <p>{{ site.description }}</p>
+  
+  <!-- Navigation Links -->
+  <nav>
+    <ul>
+      <li><a href="{{ site.baseurl }}/about/">About</a></li>
+      <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
+      <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Blog Posts -->
+  <h2>Blog Posts</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <p>{{ post.excerpt }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+  <!-- Image -->
+  <div>
+    <img src="{{ site.baseurl }}/precipitation_1950_2021.png" alt="Precipitation 1950-2021">
+  </div>
+</div>

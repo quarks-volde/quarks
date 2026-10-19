@@ -1,0 +1,156 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "scrollWidth": 1425,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "index.html",
+      "viewport": 1440
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1425,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "about/index.html",
+      "viewport": 1440
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1425,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "projects/index.html",
+      "viewport": 1440
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1425,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "publications/index.html",
+      "viewport": 1440
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1425,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "contact/index.html",
+      "viewport": 1440
+    },
+    {
+      "width": 390,
+      "scrollWidth": 375,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "index.html",
+      "viewport": 390
+    },
+    {
+      "width": 390,
+      "scrollWidth": 375,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "about/index.html",
+      "viewport": 390
+    },
+    {
+      "width": 390,
+      "scrollWidth": 375,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "projects/index.html",
+      "viewport": 390
+    },
+    {
+      "width": 390,
+      "scrollWidth": 375,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "publications/index.html",
+      "viewport": 390
+    },
+    {
+      "width": 390,
+      "scrollWidth": 375,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "contact/index.html",
+      "viewport": 390
+    },
+    {
+      "width": 320,
+      "scrollWidth": 305,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "index.html",
+      "viewport": 320
+    },
+    {
+      "width": 320,
+      "scrollWidth": 305,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "about/index.html",
+      "viewport": 320
+    },
+    {
+      "width": 320,
+      "scrollWidth": 305,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "projects/index.html",
+      "viewport": 320
+    },
+    {
+      "width": 320,
+      "scrollWidth": 305,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "publications/index.html",
+      "viewport": 320
+    },
+    {
+      "width": 320,
+      "scrollWidth": 305,
+      "images": true,
+      "css": 1,
+      "h1": 1,
+      "externalRequests": [],
+      "page": "contact/index.html",
+      "viewport": 320
+    }
+  ],
+  "navigation_click": "passed",
+  "project_anchor_click": "passed"
+}
