@@ -16,5 +16,5 @@
 <rect class="node" x="495" y="371" width="365" height="146" rx="18"/><text class="micro" x="520" y="406">03 / CONNECTIONS</text><text class="label" x="520" y="448">Atmospheric pathways</text><text class="small" x="520" y="486">Remote climate links</text>
 <rect x="40" y="371" width="365" height="146" rx="18" fill="#d8ede7"/><text class="micro" x="65" y="406">04 / REGIONAL RESPONSE</text><text class="label" x="65" y="448">Indian monsoon</text><text class="small" x="65" y="486">Summer rainfall variability</text>
 <path class="line" d="M416 215H483" stroke-dasharray="7 6"/><path class="line" d="M675 300V358" stroke-dasharray="7 6"/><path class="line" d="M483 444H417" stroke-dasharray="7 6"/>
-<text class="small" text-anchor="middle" x="450" y="566">Conceptual pathway under investigation</text>
+<text class="small" text-anchor="middle" x="450" y="566">Pacific–monsoon research schematic</text>
 </svg>

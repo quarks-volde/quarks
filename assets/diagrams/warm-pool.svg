@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600" role="img" aria-labelledby="title desc">
-<title id="title">Indo-Pacific warm pool research</title><desc id="desc">A conceptual research schematic linking changes in the Indo-Pacific warm pool with MJO variability and tropical cyclone response. It does not depict measured or simulated sea-surface temperatures.</desc>
+<title id="title">Indo-Pacific warm pool research</title><desc id="desc">A schematic linking changes in the Indo-Pacific warm pool with MJO variability and tropical cyclone response.</desc>
 <defs>
  <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#147e95"/><stop offset="1" stop-color="#063950"/></linearGradient>
  <linearGradient id="ice" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#a9dce9"/></linearGradient>
@@ -19,5 +19,5 @@
 <path class="line" d="M335 362V411H250V442"/><path class="line" d="M565 362V411H650V442"/>
 <rect class="node" x="60" y="453" width="375" height="90" rx="16"/><text class="label" text-anchor="middle" x="247" y="508">MJO variability</text>
 <rect class="node" x="465" y="453" width="375" height="90" rx="16"/><text class="label" text-anchor="middle" x="652" y="508">Cyclone response</text>
-<text class="micro" text-anchor="middle" x="450" y="580">CONCEPTUAL SCHEMATIC · NOT A DATA MAP</text>
+<text class="micro" text-anchor="middle" x="450" y="580">WARM-POOL VARIABILITY · SCHEMATIC</text>
 </svg>
